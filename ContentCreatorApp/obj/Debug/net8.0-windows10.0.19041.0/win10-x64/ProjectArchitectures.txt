@@ -1,0 +1,1 @@
+C:\Users\febib\source\repos\ContentCreatorApp\ContentCreatorApp\ContentCreatorApp.csproj;x64

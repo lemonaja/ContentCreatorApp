@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContentCreatorApp.Pages.MainPage">
+    <StackLayout Padding="20" Spacing="15">
+        <Label Text="Bem-vindo ao Content Creator App"
+               FontSize="Large"
+               HorizontalOptions="Center" />
+
+        <Button Text="Buscar Playlists"
+                Clicked="OnGetPlaylistsClicked" />
+
+        <Button Text="Adicionar Playlist"
+                Clicked="OnAddPlaylistClicked" />
+
+        <Button Text="Excluir Playlist"
+                Clicked="OnDeletePlaylistClicked" />
+    </StackLayout>
+</ContentPage>
+
